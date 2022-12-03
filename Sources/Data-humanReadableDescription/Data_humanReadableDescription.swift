@@ -1,6 +1,19 @@
-public struct Data_humanReadableDescription {
-    public private(set) var text = "Hello, World!"
+//
+//  Data_humanReadableDescription.swift
+//  
+//
+//  Created by Jeremy Bannister on 12/3/22.
+//
 
-    public init() {
+///
+import Foundation
+import Data_utf8String
+
+///
+public extension Data {
+    
+    ///
+    var humanReadableDescription: String {
+        self.utf8String ?? self.description
     }
 }
