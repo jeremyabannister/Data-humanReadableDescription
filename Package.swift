@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/jeremyabannister/Data-utf8String",
-            from: "0.1.0"
+            "0.1.1" ... "0.2.0"
         )
     ],
     targets: [

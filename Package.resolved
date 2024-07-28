@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "data-utf8string",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jeremyabannister/Data-utf8String",
+      "state" : {
+        "revision" : "31e935570c8926bb4b21981cccf388e78968c4a3",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -9,11 +9,12 @@
 import Foundation
 import Data_utf8String
 
+
 ///
-public extension Data {
+extension Data {
     
     ///
-    var humanReadableDescription: String {
+    public var humanReadableDescription: String {
         self.utf8String ?? self.description
     }
 }
