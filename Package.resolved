@@ -1,14 +1,15 @@
 {
+  "originHash" : "dfb20c6dfbc44d50555727868cfde54a76caf4e4c4708f500a0016cfb8853e6e",
   "pins" : [
     {
       "identity" : "data-utf8string",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jeremyabannister/Data-utf8String",
       "state" : {
-        "revision" : "31e935570c8926bb4b21981cccf388e78968c4a3",
-        "version" : "0.1.1"
+        "revision" : "5ca85ff523e885287092339bfea615f331e0dc13",
+        "version" : "0.1.2"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

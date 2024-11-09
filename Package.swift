@@ -1,9 +1,7 @@
-// swift-tools-version: 5.7
+// swift-tools-version:6.0
 
-///
 import PackageDescription
 
-///
 let package = Package(
     name: "Data-humanReadableDescription",
     products: [
@@ -15,8 +13,8 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/jeremyabannister/Data-utf8String",
-            "0.1.1" ... "0.2.0"
-        )
+            .upToNextMinor(from: "0.1.2")
+        ),
     ],
     targets: [
         .target(
